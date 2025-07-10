@@ -1,0 +1,1178 @@
+* {
+    margin: 0px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0px;
+}
+
+.navbar {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    border-bottom: 2px solid black;
+    height: 65px;
+    display: flex;
+}
+
+.rightIcon {
+    margin-left: auto;
+    float: right;
+    padding-top: 45px;
+    justify-content: space-around;
+    width: 100px;
+    color: black;
+    height: 20px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.leftIcon {
+    display: flex;
+    height: 20px;
+    justify-content: space-evenly;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    padding-top: 45px;
+}
+
+.secondNavbar {
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    list-style-type: none;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.menu li {
+    margin-right: 50px;
+}
+
+.menu2 li {
+    margin-right: 50px;
+}
+
+.btnSignup {
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    margin-right: 40px;
+    border-radius: 40px;
+    width: 80px;
+    border: none;
+    box-shadow: 2px 2px wheat;
+}
+
+.SignIn {
+    background-color: white;
+    color: orange;
+    font-size: 16px;
+    border: none;
+    margin-right: 30px;
+    width: 80px;
+}
+
+.logo {
+    font-weight: bold;
+    margin-top: 34px;
+    margin-left: 3.5em;
+
+}
+
+.heroLogo {
+    font-weight: bold;
+    margin-top: 90px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    line-height: 1.3;
+    margin-left: 3.5em;
+}
+
+.heroP {
+    font-size: 17px;
+    color: black;
+    margin-left: 180px;
+    margin-top: 10px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.herobtn2 {
+    height: 45px;
+    margin-top: 30px;
+    border: none;
+    padding: 10px;
+    box-shadow: 2px 2px gainsboro;
+    border-radius: 30px;
+}
+
+.herobtn {
+    margin-top: 30px;
+    margin-right: 20px;
+    /* margin-left: 120px; */
+    padding: 10px;
+    height: 45px;
+    border-radius: 30px;
+    background-color: white;
+}
+
+.heroImg {
+    border-radius: 25px;
+    height: 400px;
+    width: 700px;
+    z-index: -1;
+    margin-right: 30px;
+    margin-left: -100px;
+    margin-top: 90px;
+}
+
+.firstBannerlist {
+    font-size: 15px;
+
+    color: black;
+    text-transform: capitalize;
+    margin-top: 10px;
+}
+
+.firstBanner {
+    display: flex;
+    border-radius: 30px;
+    box-shadow: 3px 3px gainsboro;
+    justify-content: space-around;
+    height: 60px;
+    margin-left: 200px;
+    z-index: 0;
+    margin-top: 0px;
+    text-align: center;
+    vertical-align: middle;
+    width: 900px;
+    z-index: 1;
+    background-color: white;
+}
+
+.secondBanner {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 90%;
+    justify-content: space-evenly;
+    padding: 20px;
+
+}
+
+.secondBanner span {
+    color: gray;
+    text-transform: capitalize;
+    margin-right: 50px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    font-size: 30px;
+}
+
+.productImg {
+    height: 150px;
+    width: 300px;
+    mix-blend-mode: multiply;
+    border-radius: 20px;
+}
+
+.product1 {
+    display: flex;
+    width: 400px;
+    background-color: rgba(220, 220, 220, 0.24);
+    height: 200px;
+    justify-content: space-evenly;
+    justify-items: legacy;
+    border-radius: 15px;
+    padding: 20px 20px;
+
+}
+
+.productBtn {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 20px;
+    width: fit-content;
+}
+
+.productName {
+    margin-top: 10px;
+    font-weight: lighter;
+    font-size: 15px;
+    line-height: 2;
+
+}
+
+.productCarrier {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top: 90px;
+}
+
+.secondNavbar2 {
+    display: flex;
+
+    margin-top: 100px;
+}
+
+.checkBtn {
+    background-color: rgba(220, 220, 220, 0.97);
+    border: none;
+    border-radius: 13px;
+    height: 40px;
+    width: 170px;
+
+
+    color: darkorange;
+
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 100px;
+}
+
+.menu2 {
+
+    margin-left: auto;
+
+    list-style-type: none;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.SignIn2 {
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    margin-top: -11px;
+    border: 2px solid black;
+    margin-right: 30px;
+    border-radius: 20px;
+    width: fit-content;
+    height: 40px;
+}
+
+.productCardImg {
+    height: 250px;
+    width: 210px;
+    border-radius: 20px;
+}
+
+.mainPrice {
+    font-weight: bold;
+}
+
+.productCardName {
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+.productCardParent {
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.productCardParent2 {
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.about {
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 45px;
+    letter-spacing: 2px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    word-spacing: 10px;
+    /* width: 90%; */
+    /* background-color: red; */
+
+    display: flex;
+    /* justify-content: space-between; */
+
+
+}
+
+.secondHero {
+    vertical-align: middle;
+    margin-left: 0px;
+}
+
+.secondHero2 {
+    vertical-align: middle;
+    margin-left: 80px;
+}
+
+.aboutStory {
+    font-size: 20px;
+    line-height: 1.4;
+    word-spacing: 2;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+}
+
+.storyList {
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.btnSignup20 {
+    background: #fff;
+    color: black;
+    font-size: 14px;
+    font-size: 16px;
+    /* margin-right: 40px; */
+    border-radius: 40px;
+    width: 180px;
+    margin-top: 3.5px;
+    padding: 10px;
+    height: 40px;
+    border: 2px solid #000;
+
+}
+
+.btnSignup2 {
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    font-size: 16px;
+    /* margin-right: 40px; */
+    border-radius: 40px;
+    width: 180px;
+
+    padding: 10px;
+    height: 40px;
+    border: none;
+    box-shadow: 2px 2px wheat;
+}
+
+#iconCheck {
+    color: orange;
+}
+
+.secondHeroParent {
+    display: flex;
+    height: 600px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+
+.secondHeroParent2 {
+    display: flex;
+    height: 400px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+  .secondHeroParent3 {
+
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+        margin-top: 0;
+        margin-left: 0;
+        display: none;
+        margin-right: 0px;
+        padding: 2rem 1rem;
+    }
+.secondHeroImg2 {
+    height: 450px;
+    width: 550px;
+    border-radius: 10px;
+    z-index: -1;
+}
+
+.secondHeroImg {
+    height: 600px;
+    width: 550px;
+    border-radius: 10px;
+    z-index: -1;
+}
+
+.aboutTip {
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px;
+    font-size: 20px;
+    font-weight: bold;
+    width: 300px;
+    background-color: white;
+    margin-top: 20px;
+    height: 50px;
+    margin-right: -330px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.aboutTip2 {
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    width: 300px;
+    background-color: white;
+    margin-top: 20px;
+    height: 40px;
+    margin-top: 560px;
+    margin-left: -350px;
+    text-align: center;
+
+}
+
+.blackBanner {
+    background-color: black;
+    color: white;
+    display: flex;
+    margin-top: 90px;
+    justify-content: space-evenly;
+}
+
+.leftSideDiv {
+    display: block;
+    padding: 30px 4px;
+
+}
+
+.leftSideDivh1 {
+    color: white;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.leftSideDivP {
+    font-size: 15px;
+    margin-top: 50px;
+    word-spacing: 3px;
+    line-height: 2;
+    font-weight: bold;
+
+}
+
+.checked {
+    color: orange;
+}
+
+.parentP {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    width: 450px;
+    margin-top: 30px;
+    margin-left: -65px;
+
+}
+
+.sideIcon {
+    color: orangered;
+    padding: 25px;
+    font-size: 25px;
+}
+
+.parentrightSideBanner {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+}
+
+.checkBtn2 {
+    background-color: rgba(220, 220, 220, 0.452);
+    border: none;
+    border-radius: 13px;
+    height: 40px;
+    width: 270px;
+    margin-left: 41.999%;
+    color: darkorange;
+
+    font-weight: bold;
+    margin-top: 30px;
+    font-size: 15px;
+    /* margin-left: 100px; */
+}
+
+.centerheader {
+    text-align: center;
+    color: black;
+    margin-top: 10px;
+    word-spacing: 1.5;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.testimonial {
+    width: 500px;
+    height: fit-content;
+    background-color: white;
+    box-shadow: 2px 2px gainsboro;
+    border-radius: 10px;
+    padding: 30px;
+    margin-right: 20px;
+}
+
+.starParent {
+    margin-top: -10px;
+    float: right;
+}
+
+.parentTestimonial {
+    display: flex;
+    overflow: scroll;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    scroll-snap-type: none;
+    justify-content: space-evenly;
+}
+
+.bgImg {
+    height: 400px;
+    background-image: url(img/thirdHeroImg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    margin-top: 100px;
+    background-position: center;
+}
+
+.leftSideDivH1second {
+    color: white;
+    float: right;
+
+    margin-top: 150px;
+    margin-right: 200px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.ashBg {
+    width: 100%;
+    background-color: rgb(27, 27, 27);
+    height: 150px;
+    padding: 30px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+#newsLetter {
+    width: 450px;
+    height: 60px;
+}
+
+
+
+
+
+
+.craft {
+    margin-left: 100px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+
+div.gallery {
+    border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+/* Add to style.css */
+
+/* Responsive Navbar */
+.secondNavbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+
+    /* padding: 10px 20px; */
+}
+
+.menu {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
+
+.hamburger {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 24px;
+}
+
+@media (max-width: 768px) {
+    .menu {
+        
+        
+        background: #fff;
+        position: absolute;
+        
+        
+        left: 0;
+        width: 100%;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        z-index: 100;
+        
+        padding: 1rem;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        margin-top: -650px;
+        
+    }
+
+    .menu.show {
+        display: flex;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .SignIn,
+    .btnSignup {
+        margin-top: 10px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.hamburger {
+    display: none;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+
+
+/* 🌐 Mobile styles */
+@media (max-width: 768px) {
+    body {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .menu,
+    .btns {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        display: none;
+    }
+
+    .menu.active,
+    .btns.active {
+        display: flex;
+    }
+
+    .secondNavbar {
+        
+        background-color: #000000e2;
+        color: white;
+        justify-content: space-between;
+        
+        
+    
+    }
+}
+
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+    .hamburger {
+        display: block;
+        cursor: pointer;
+        font-size: 28px;
+        margin-right: 20px;
+
+    }
+
+    .craft {
+
+        font-weight: bold;
+        font-size: 20px;
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+
+    .menu {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: white;
+        flex-direction: column;
+        padding: 1rem;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        display: none;
+    }
+
+    .menu.show {
+        display: flex;
+    }
+
+    .btns {
+        display: none;
+    }
+
+    .secondHeroParent2 {
+        margin-top: 0px;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        
+        text-align: center;
+        padding: 2rem 1rem;
+    }
+
+    .secondHero {
+        padding-right: 0;
+        margin-bottom: 2rem;
+    }
+
+    .about {
+        font-size: 2rem;
+    }
+
+    .secondHeroImg2 {
+        width: 100%;
+        max-width: 300px;
+        height: 300px;
+    }
+
+    .aboutTip {
+        position: static;
+        margin-bottom: 1rem;
+    
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px;
+    font-size: 20px;
+    font-weight: bold;
+    width: 300px;
+    background-color: white;
+    margin-top: 20px;
+    height: 50px;
+    display: none;
+    text-align: center;
+    padding-top: 20px;
+
+    }
+
+    .firstBanner {
+        display: block;
+        gap: 1rem;
+        padding: 1rem;
+        display: block;
+        height: fit-content;
+        z-index: 0;
+        width: 90%;
+        margin-top: 400px;
+        display: block  ;
+        margin-left: 0px;
+        margin-right: auto;
+
+    }
+
+    .firstBannerlist {
+        font-size: 1rem;
+    }
+
+    .productCarrier {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .product1 {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .secondNavbar2 {
+        flex-direction: column;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .menu2 {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .productCardParent,
+    .productCardParent2 {
+        flex-direction: column;
+        margin-left: auto;
+        width: 80%;
+        margin-right: auto;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .productCard {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .secondHeroParent {
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+        margin-top: 0;
+        margin-left: 0;
+        display: none;
+        margin-right: 0px;
+        padding: 2rem 1rem;
+    }
+      .secondHeroParent3 {
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+        margin-top: 0;
+        margin-left: 0;
+        display: block;
+        margin-right: 0px;
+        padding: 2rem 1rem;
+    }
+
+    .secondHero {
+        padding-right: 0;
+        margin-bottom: 2rem;
+    }
+
+    .secondHero2 {
+        padding-left: 0;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+
+    .secondHeroImg {
+        width: 100%;
+        margin-left: 0px;
+        max-width: 300px;
+        height: 300px;
+    }
+
+    .aboutTip2 {
+        position: static;
+        margin-top: 1rem;
+    }
+
+    .blackBanner {
+        flex-direction: column;
+margin-left: auto;
+margin-right: auto;
+        width: 80%;
+        gap: 2rem;
+        padding: 2rem 1rem;
+    }
+
+    .leftSideDivH1 {
+        font-size: 2rem;
+    }
+
+    .parentP {
+        flex-direction: column;
+        gap: 1rem;
+        margin-left: 0px;
+    }
+
+    .parentrightSideBanner {
+        flex-direction: column;
+        text-align: center;
+        gap: 0.5rem;
+    }
+
+    .centerheader {
+        font-size: 2rem;
+        padding: 0 1rem;
+        
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .responsiveParent {
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .parentTestimonial {
+        flex-direction: column;
+        width: 100%;
+        
+        padding: 1rem;
+    }
+    .testimonial {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 300px;
+        margin-bottom: 1rem;
+    }
+
+    .bgImg {
+        padding: 2rem 1rem;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .leftSideDivH1second {
+        font-size: 2rem;
+    }
+
+    .ashBg {
+        padding: 2rem 1rem;
+        width: 90%;
+           margin-left: auto;
+        margin-right: auto;
+    }
+
+    #newsLetter {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    /* Hide second banner on mobile */
+    .secondBanner {
+        display: none;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .secondNavbar {
+        padding: 1rem;
+    }
+
+    .logo {
+        font-size: 1.3rem;
+    }
+
+    .about {
+        font-size: 1.5rem;
+    }
+
+    .aboutStory {
+        font-size: 1rem;
+    }
+
+    .herobtn,
+    .herobtn2 {
+        padding: 0.5rem 1rem;
+        font-size: 0.9rem;
+    }
+
+    .leftSideDivH1 {
+        font-size: 1.5rem;
+    }
+
+    .centerheader {
+        font-size: 1.5rem;
+    }
+
+    .leftSideDivH1second {
+        font-size: 1.5rem;
+    }
+
+    .craft {
+
+        font-weight: bold;
+        font-size: 20px;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    .checkBtn {
+        
+        
+        margin-left: 0;
+    }
+}
+
+
+
+/* General Styling */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Navbar Styling */
+.secondNavbar2 {
+    background-color: #000000e2;
+    color: white;
+    padding: 1rem 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    /* Required for positioning the dropdown */
+}
+
+.checkBtn {
+    /* background-color: #e43606; */
+    color: white;
+    border: none;
+    padding: 0.6rem 1.2rem;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: background-color 0.3s;
+}
+
+.checkBtn:hover {
+    background-color: #2980b9;
+}
+
+.menu2 {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.menu2 li a {
+    padding: 0.5rem;
+    transition: background-color 0.3s;
+    border-radius: 5px;
+}
+
+.menu2 li a:hover {
+    background-color: #34495e;
+}
+
+/* Mobile View - Dropdown Styles */
+@media (max-width: 768px) {
+    .menu2 {
+        display: none;
+        /* Hide the menu by default on mobile */
+        left: 0;
+        right: 0;
+        /* Make it full width */
+        background-color: #2c3e50;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        z-index: 1000;
+    }
+
+    /* This class will be toggled by JavaScript to show/hide the menu */
+    .menu2.show {
+        display: flex;
+    }
+
+    .menu2 li a {
+        display: block;
+        padding: 1rem 1.5rem;
+        border-bottom: 1px solid #34495e;
+    }
+    .checkBtn2 {
+        /* width: 100%; */
+        background-color: green;
+        margin-left: 30px;
+
+    }
+
+     .checkBtn {
+        width: 100%;
+        
+        margin-left: 0%;
+    }
+    .logo {
+        font-size: 1.5rem;
+        margin-right: 0px;
+        background-color: #000000e2;
+        float: left;
+        margin-left: 0px;
+    }
+    .menu li {
+    
+        color: black;
+}
+}
