@@ -21,7 +21,12 @@ This is a fully responsive landing page for a fictional furniture company, "Best
 
 
 ![Desktop view of the furniture website](/img/screenshot.png)
+(/img/screenshot2.png)
 
+
+## The Figma Link Prototype That I Recreated
+
+https://www.figma.com/design/24Irc59oZDAT3MwR0QVC6n/Furniture-Web-Design--Community-?node-id=1-2&t=bl5RwGChGiYSM2na-1
 ## 🛠️ Technologies Used
 
 *   **HTML5:** For the structure and content of the website.

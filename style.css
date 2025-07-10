@@ -2,6 +2,7 @@
     margin: 0px;
     font-family: 'Courier New', Courier, monospace;
     padding: 0px;
+
 }
 
 .navbar {
@@ -657,7 +658,7 @@ div.desc {
         
         padding: 1rem;
         box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-        margin-top: -650px;
+        margin-top: -550px;
         
     }
 
@@ -704,6 +705,28 @@ div.desc {
     clear: both;
 }
 
+/* Scroll to Top Button */
+#scrollToTopBtn {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Fixed/sticky position */
+    bottom: 20px;
+    /* Place the button at the bottom of the page */
+    right: 30px;
+    /* Place the button 30px from the right */
+    z-index: 99;
+    /* Make sure it does not overlap */
+    border: none;
+    outline: none;
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
 .hamburger {
     display: none;
     font-size: 28px;
@@ -739,8 +762,8 @@ div.desc {
 
     .secondNavbar {
         
-        background-color: #000000e2;
-        color: white;
+    
+        color: black;
         justify-content: space-between;
         
         
@@ -1167,12 +1190,29 @@ a {
     .logo {
         font-size: 1.5rem;
         margin-right: 0px;
-        background-color: #000000e2;
+        
         float: left;
         margin-left: 0px;
     }
     .menu li {
     
         color: black;
+}
+#scrollToTopBtn {
+    display: block;
+    /* Show the button on mobile */
+    position: fixed;
+    bottom: 20px;
+    right: 440px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+    
+    border-radius: 10px;
+    font-size: 18px;
+    
 }
 }
