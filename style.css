@@ -815,12 +815,14 @@ div.desc {
         margin-left: auto;
         margin-right: auto;
         display: block;
-        
+        /* background-color: red; */
         text-align: center;
         padding: 2rem 1rem;
     }
 
     .secondHero {
+        
+        width: fit-content;
         padding-right: 0;
         margin-bottom: 2rem;
     }
@@ -857,14 +859,13 @@ div.desc {
         display: block;
         gap: 1rem;
         padding: 1rem;
-        display: block;
         height: fit-content;
         z-index: 0;
-        width: 90%;
+        width: 100%;
         margin-top: 400px;
-        display: block  ;
+        
         margin-left: 0px;
-        margin-right: auto;
+        
 
     }
 
@@ -970,8 +971,9 @@ margin-right: auto;
     }
 
     .parentP {
-        flex-direction: column;
+        flex-direction: row to column;
         gap: 1rem;
+        width: 100%;
         margin-left: 0px;
     }
 
@@ -1179,7 +1181,7 @@ a {
     }
     .checkBtn2 {
         /* width: 100%; */
-        background-color: green;
+        
         margin-left: 30px;
 
     }
@@ -1217,4 +1219,50 @@ a {
     font-size: 18px;
     
 }
-}
+}/* Mobile styles: screens up to 600px wide */
+@media (max-width: 600px) {
+    body {
+      padding: 0 10px;
+      font-size: 16px;
+    }
+  
+    header, nav, main, footer {
+      width: 100%;
+      box-sizing: border-box;
+    }
+  
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  
+    /* Example: Stack navigation links vertically */
+    nav ul {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    /* Example: Adjust hero/banner images */
+    .hero, .banner {
+      background-size: cover;
+      background-position: center;
+      min-height: 200px;
+    }
+  
+    /* Example: Make product cards stack */
+    .product-list, .card-list, .gallery {
+      display: block;
+    }
+  
+    .product-card, .card, .gallery-item {
+      width: 100%;
+      margin-bottom: 16px;
+    }
+    .productImg {
+        height: 150px;
+        width: 100%;
+        mix-blend-mode: multiply;
+        border-radius: 20px;
+    }
+    /* Add more rules as needed for your layout */
+  }
